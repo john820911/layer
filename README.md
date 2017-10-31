@@ -1,5 +1,5 @@
 # layer
-An easy implementation of convolutional/deconvolutional layer using im_col_convert and gemm API.
+An easy implementation of convolutional/deconvolutional layer using im_col_convert and gemm API.<br/>
 For calling the convolutional/deconvolutional layer, you should define yours:
     1. input_shape -- 1D tensor of shape [ batch, channel, height, width ]
     2. input -- 1D tensor of data stored in format [ batch * channel * height * width ]
